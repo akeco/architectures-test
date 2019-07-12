@@ -1,0 +1,35 @@
+version: '3'
+services:
+  postgresql:
+    image: postgres
+    container_name: postgres
+    restart: always
+    environment:
+      - POSTGRES_HOST=localhost
+      - POSTGRES_DATABASE=testdb
+      - POSTGRES_USER=root1
+      - POSTGRES_PASSWORD=root1
+    ports:
+      - 4321:5432
+  rethink:
+    image: rethinkdb
+    volumes:
+      - ${PWD}/data:/data
+    ports:
+      - 8080:8080
+      - 28015:28015
+      - 29015:29015
+  webserver:
+    image: nginx:alpine
+    container_name: webserver
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "79:80"
+      - "442:443"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

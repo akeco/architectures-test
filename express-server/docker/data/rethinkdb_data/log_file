@@ -1,0 +1,50 @@
+2019-07-05T13:11:48.375766700 0.308994s notice: Recursively removing directory /data/rethinkdb_data/tmp
+2019-07-05T13:11:48.412731300 0.345956s notice: Initializing directory /data/rethinkdb_data
+2019-07-05T13:11:48.413857300 0.347077s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/data/rethinkdb_data' did not already exist or is empty.)
+2019-07-05T13:11:48.414491900 0.347712s notice: Running rethinkdb 2.3.6~0jessie (GCC 4.9.2)...
+2019-07-05T13:11:48.420190400 0.353413s notice: Running on Linux 4.9.125-linuxkit x86_64
+2019-07-05T13:11:48.421203500 0.354426s notice: Loading data from directory /data/rethinkdb_data
+2019-07-05T13:11:48.492398900 0.425619s info: Automatically using cache size of 262 MB
+2019-07-05T13:11:48.498444700 0.431666s notice: Listening for intracluster connections on port 29015
+2019-07-05T13:11:48.502181600 0.435401s notice: Listening for client driver connections on port 28015
+2019-07-05T13:11:48.502330600 0.435550s notice: Listening for administrative HTTP connections on port 8080
+2019-07-05T13:11:48.507021200 0.440260s notice: Listening on cluster addresses: 127.0.0.1, 172.19.0.2
+2019-07-05T13:11:48.513216700 0.446438s notice: Listening on driver addresses: 127.0.0.1, 172.19.0.2
+2019-07-05T13:11:48.518360700 0.451580s notice: Listening on http addresses: 127.0.0.1, 172.19.0.2
+2019-07-05T13:11:48.518416700 0.451635s notice: Server ready, "c4d33fdcd26d_c5q" fe1cf372-26b2-461e-a5e9-64a6f173eb4a
+2019-07-05T13:12:22.186359600 0.032215s notice: Running rethinkdb 2.3.6~0jessie (GCC 4.9.2)...
+2019-07-05T13:12:22.207496000 0.053349s notice: Running on Linux 4.9.125-linuxkit x86_64
+2019-07-05T13:12:22.208680800 0.054561s notice: Loading data from directory /data/rethinkdb_data
+2019-07-05T13:12:22.254083600 0.099970s info: Automatically using cache size of 262 MB
+2019-07-05T13:12:22.267214100 0.113064s notice: Listening for intracluster connections on port 29015
+2019-07-05T13:12:22.269313200 0.115163s notice: Listening for client driver connections on port 28015
+2019-07-05T13:12:22.271519300 0.117370s notice: Listening for administrative HTTP connections on port 8080
+2019-07-05T13:12:22.277567800 0.123429s notice: Listening on cluster addresses: 127.0.0.1, 172.19.0.2
+2019-07-05T13:12:22.284885200 0.130799s notice: Listening on driver addresses: 127.0.0.1, 172.19.0.2
+2019-07-05T13:12:22.291685300 0.137545s notice: Listening on http addresses: 127.0.0.1, 172.19.0.2
+2019-07-05T13:12:22.294196100 0.140049s notice: Server ready, "c4d33fdcd26d_c5q" fe1cf372-26b2-461e-a5e9-64a6f173eb4a
+2019-07-05T13:33:10.812615400 1250.055527s info: Table 65f2b126-65d5-4dae-b60d-2518209e8056: Starting a new Raft election for term 1.
+2019-07-05T13:33:10.813466700 1250.056378s info: Table 65f2b126-65d5-4dae-b60d-2518209e8056: Added replica on this server.
+2019-07-05T13:33:10.814952600 1250.057864s info: Table 65f2b126-65d5-4dae-b60d-2518209e8056: This server is Raft leader for term 1. Latest log index is 0.
+2019-07-05T16:55:48.025480200 3787.435763s notice: Removing file /data/rethinkdb_data/65f2b126-65d5-4dae-b60d-2518209e8056
+2019-07-05T16:55:48.029921800 3787.440204s info: Table 65f2b126-65d5-4dae-b60d-2518209e8056: Deleted the table.
+2019-07-05T16:59:06.510055400 3986.159302s notice: Someone asked for the nonwhitelisted file "/v1/create".  If this should be accessible, add it to the static web assets.
+2019-07-05T16:59:27.546523300 4007.231490s notice: Someone asked for the nonwhitelisted file "/v1/hello/create".  If this should be accessible, add it to the static web assets.
+2019-07-05T16:59:43.928960500 4023.613989s notice: Someone asked for the nonwhitelisted file "/v1/hello".  If this should be accessible, add it to the static web assets.
+2019-07-05T16:59:50.572060400 4030.287461s notice: Someone asked for the nonwhitelisted file "/v12hello".  If this should be accessible, add it to the static web assets.
+2019-07-05T16:59:57.445101200 4037.160627s notice: Someone asked for the nonwhitelisted file "/v1/hello".  If this should be accessible, add it to the static web assets.
+2019-07-05T17:00:02.416559700 4042.131960s notice: Someone asked for the nonwhitelisted file "/v2/hello".  If this should be accessible, add it to the static web assets.
+2019-07-05T17:00:52.805087300 4092.588726s notice: Someone asked for the nonwhitelisted file "/v1/hello".  If this should be accessible, add it to the static web assets.
+2019-07-05T17:01:30.945947400 4130.763612s notice: Someone asked for the nonwhitelisted file "/v1/hello".  If this should be accessible, add it to the static web assets.
+2019-07-05T17:01:31.783555500 4131.601217s notice: Someone asked for the nonwhitelisted file "/v1/hello".  If this should be accessible, add it to the static web assets.
+2019-07-05T17:02:10.151356900 4170.002464s info: Table a45c4a82-cef7-4680-9e4c-e80e6eaa70f0: Starting a new Raft election for term 1.
+2019-07-05T17:02:10.154199700 4170.005295s info: Table a45c4a82-cef7-4680-9e4c-e80e6eaa70f0: Added replica on this server.
+2019-07-05T17:02:10.176774400 4170.027875s info: Table a45c4a82-cef7-4680-9e4c-e80e6eaa70f0: This server is Raft leader for term 1. Latest log index is 0.
+2019-07-05T17:05:44.441541100 4384.530006s info: Table d837e087-0801-4fdf-8bdf-d5c023d8d4c7: Starting a new Raft election for term 1.
+2019-07-05T17:05:44.442122100 4384.530518s info: Table d837e087-0801-4fdf-8bdf-d5c023d8d4c7: Added replica on this server.
+2019-07-05T17:05:44.453715000 4384.542110s info: Table d837e087-0801-4fdf-8bdf-d5c023d8d4c7: This server is Raft leader for term 1. Latest log index is 0.
+2019-07-09T08:20:33.494676500 88767.485127s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2019-07-09T08:20:33.567731300 88767.554305s notice: Shutting down client connections...
+2019-07-09T08:20:33.671619700 88767.658240s notice: All client connections closed.
+2019-07-09T08:20:33.671696700 88767.658269s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2019-07-09T08:20:34.565764400 88768.552338s notice: Storage engine shut down.
