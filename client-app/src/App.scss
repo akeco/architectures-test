@@ -1,0 +1,7 @@
+//@import "@blueprintjs/core/lib/scss/variables";
+@import "style/variables";
+
+body {
+  margin: 0;
+  background-color: var(--dark-background-color);
+}

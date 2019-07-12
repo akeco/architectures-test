@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+
+  & > div {
+    flex-grow: 1;
+    flex: 1;
+    margin: 10px;
+    min-width: 180px;
+  }
+}
+
+.formWrapper {
+  & > * {
+    margin-bottom: 10px;
+  }
+
+  button {
+    width: 100%;
+  }
+}

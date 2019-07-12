@@ -1,0 +1,14 @@
+.formWrapper {
+  padding: 40px;
+  & > * {
+    margin-bottom: 10px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  button, label {
+    width: 100%;
+  }
+}

@@ -1,0 +1,6 @@
+.idea/
+.env
+node_modules
+client-app/node-modules
+express-server/node-modules
+express-server/uploads
