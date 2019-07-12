@@ -1,4 +1,4 @@
-#### Playing with server and frontend architecures
+#### Playing with server and frontend architectures
 
 - Express
 - Moleculer
